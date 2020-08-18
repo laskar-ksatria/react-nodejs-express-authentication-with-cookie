@@ -10,5 +10,10 @@ const checkCookie = (req,res,next) => {
     }
 };
 
+// const checkCSURF = (req,res,next) => {
+//     let csurfToken = req.cookies.csurftoken;
+//     req.headers.
+// }
+
 
 module.exports = {checkCookie};
